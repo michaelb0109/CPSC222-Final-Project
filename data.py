@@ -13,3 +13,5 @@ original_data = pd.read_csv("HealthAutoExport Data 2.csv")
 health_df = original_data.rename(columns = {'Step Count (count)': 'Steps', 'Flights Climbed (count)': 'FC', 'Walking + Running Distance (mi)': "Distance", 'Walking Asymmetry Percentage (%)': 'Asymmetry', 'Walking Double Support Percentage (%)': 'WDS', 'Walking Speed (mi/hr)': 'Speed', 'Walking Step Length (in) ': 'Step Length'})
 #print(health_df)
 
+weather_data = pd.read_csv("SpokaneWeather.csv")
+# print(weather_data)
