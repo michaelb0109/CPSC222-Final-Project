@@ -1,10 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def bar_chart(x_ser, y_ser):
+def bar_chart(x_ser, y_ser, title):
     plt.figure() # to create a new "current" figure
     plt.bar(x_ser, y_ser)
-    plt.xticks()
+    plt.title(title)
+    plt.xticks(rotation=25)
+
 original_data = pd.read_csv("HealthAutoExport Data 2.csv")
 # print(original_data)
 
