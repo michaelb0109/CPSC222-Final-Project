@@ -7,6 +7,14 @@ def bar_chart(x_ser, y_ser, title):
     plt.title(title)
     plt.xticks(rotation=25)
 
+def hypothesis_test(group_t_val, pval):
+    print("t:", group_t_val, "pval:", pval)
+    alpha = .05
+    if pval < alpha:
+        print("reject H0")
+    else:
+        print("do not reject H0")
+
 original_data = pd.read_csv("HealthAutoExport Data 2.csv")
 # print(original_data)
 
