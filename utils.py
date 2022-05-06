@@ -1,3 +1,9 @@
+# Michael Bernard
+# CPSC222
+# May 5, 2022
+# CPSC222 Quantified Self: Final Project
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
